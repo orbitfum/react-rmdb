@@ -21,7 +21,10 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": ["react-app", "plugin:react-hooks/recommended"]
+    "extends": ["react-app", "plugin:react-hooks/recommended"],
+    "plugins": [
+      "react-hooks"
+    ]
   },
   "browserslist": {
     "production": [
